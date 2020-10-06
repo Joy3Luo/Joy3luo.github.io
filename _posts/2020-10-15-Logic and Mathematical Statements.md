@@ -1,6 +1,6 @@
 ---
 title: Logic and Mathematical Statements
-categories: [writing]
+categories: [Others]
 comments: true
 ---
 
