@@ -11,7 +11,6 @@ code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inher
 MathJax.Hub.Config({
     tex2jax: {
         inlineMath: [['$','$'], ['\\(','\\)']],
-        processEscapes: true
         skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
     }
 });
