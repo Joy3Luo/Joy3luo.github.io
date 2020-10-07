@@ -24,3 +24,7 @@ Particular cases include<br/>
 $sin (\pi) = 0 $<br/>
 $sin (\frac{\pi}{2}) = 1 $<br/>
 $sin (\frac{\pi}{6}) = \frac{1}{2} $<br/>
+
+-----------------------------------------
+Referenced on Wolfram|Alpha:
+<a href="https://www.wolframalpha.com/input/?i=niven%E2%80%99s+theorem">Niven's Theorem</a> theme.
