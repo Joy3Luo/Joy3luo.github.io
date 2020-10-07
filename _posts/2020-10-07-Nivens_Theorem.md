@@ -19,7 +19,7 @@ MathJax.Hub.Queue(function() {
 
 ## <font color= 977FD7> Niven's Theorem</font>
 
-Niven's theorem states that if $\frac{x}{\pi}$ and $sin x$ are both <font color= E675A7> rational</font>, then the sine takes values 0, ±$\frac{1}{2}$1 and ±1.<br/>
+Niven's theorem states that if $\frac{x}{\pi}$ and $sin x$ are both <font color= E675A7> rational</font>, then the sine takes values 0, ±$\frac{1}{2}$ and ±1.<br/>
 Particular cases include<br/>
 $sin (\pi) = 0 $<br/>
 $sin (\frac{\pi}{2}) = 1 $<br/>
