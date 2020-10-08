@@ -3,6 +3,17 @@ title: Math - Niven's Theorem
 categories: [Notes]
 comments: true
 ---
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TG0XJZG53F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-TG0XJZG53F');
+  </script>
+
 <style TYPE="text/css">code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}</style><script type="text/x-mathjax-config">
 MathJax.Hub.Config({
     tex2jax: {
