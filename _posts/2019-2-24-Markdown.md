@@ -54,10 +54,10 @@ _**It's pretty easy to ~~apply~~ multiple styles.**_\
 
 ### <font color= 6FBCE1> Code</font>
 
-\`\`\`
+\`\`\`\
 6XQS8-KLKEH-FTB\
 STCBW-2V6V6-9D4
-\`\`\`
+\`\`\`\
 The lobby code is \`weloveesports\`!
 
 ```
@@ -87,12 +87,16 @@ The lobby code is `weloveesports`!
 #### shopping list pt 1
 * allen wrenches
 * gerbil feeders
+
 *********
+
 #### shopping list pt 2
 1. Walkie-talkies
 - copper wires safety goggles
 - radial tires
+
 *********
+
 #### shopping list pt 3
 * Picture hangers
 	* paper cutters
