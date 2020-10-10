@@ -36,7 +36,7 @@
 .highlight .nb { color: #E3AAD6 } /* Name.Builtin *//* 紫粉色 */
 .highlight .nc { color: #DADDFB; text-decoration: underline } /* Name.Class *//* 浅紫色 */
 .highlight .no { color: #40ffff } /* Name.Constant */
-.highlight .nd { color: #ffa500 } /* Name.Decorator */
+.highlight .nd { color: #DADDFB } /* Name.Decorator */ /* 浅紫色 code */
 .highlight .ni { color: #E3AAD6 } /* Name.Entity */ /* 粉色 */
 .highlight .ne { color: #93DFB8 } /* Name.Exception */ /* 浅绿色 */
 .highlight .nf { color: #DADDFB } /* Name.Function *//* 浅紫色 */
@@ -45,9 +45,9 @@
 .highlight .nx { color: #E3AAD6 } /* Name.Other */ /* 粉色 */
 .highlight .py { color: #E3AAD6 } /* Name.Property */ /* 粉色 */
 .highlight .nt { color:#93DFB8; font-weight: bold } /* Name.Tag */ /* 浅绿色 */
-.highlight .nv { color: #40ffff } /* Name.Variable */
+.highlight .nv { color: #40ffff } /* Name.Variable *//* 红色？ */
 .highlight .ow { color:#93DFB8; font-weight: bold } /* Operator.Word */ /* 浅绿色 */
-.highlight .w { color: #666666 } /* Text.Whitespace */
+.highlight .w { color: #666666 } /* Text.Whitespace */ /* 深灰？ */
 .highlight .mf { color: #ABE4FF } /* Literal.Number.Float *//* 浅蓝色 */
 .highlight .mh { color: #ABE4FF } /* Literal.Number.Hex *//* 浅蓝色 */
 .highlight .mi { color: #ABE4FF } /* Literal.Number.Integer *//* 浅蓝色 */
@@ -64,7 +64,7 @@
 .highlight .s1 { color: #FFABAB } /* Literal.String.Single *//* 浅粉色 */
 .highlight .ss { color: #FFABAB } /* Literal.String.Symbol *//* 浅粉色 */
 .highlight .bp { color: #E3AAD6 } /* Name.Builtin.Pseudo *//* 紫粉色 */
-.highlight .vc { color: #40ffff } /* Name.Variable.Class */
-.highlight .vg { color: #40ffff } /* Name.Variable.Global */
-.highlight .vi { color: #40ffff } /* Name.Variable.Instance */
+.highlight .vc { color: #40ffff } /* Name.Variable.Class *//* 淡蓝色？ */
+.highlight .vg { color: #40ffff } /* Name.Variable.Global *//* 淡蓝色？ */
+.highlight .vi { color: #40ffff } /* Name.Variable.Instance *//* 淡蓝色？ */
 .highlight .il { color: #ABE4FF } /* Literal.Number.Integer.Long *//* 浅蓝色 */
