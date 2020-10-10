@@ -87,14 +87,12 @@ The lobby code is `weloveesports`!
 #### shopping list pt 1
 * allen wrenches
 * gerbil feeders
-
 *********
 
 #### shopping list pt 2
 1. Walkie-talkies
 - copper wires safety goggles
 - radial tires
-
 *********
 
 #### shopping list pt 3
