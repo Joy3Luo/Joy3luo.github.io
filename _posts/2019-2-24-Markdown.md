@@ -37,3 +37,16 @@ _**It's pretty easy to ~~apply~~ multiple styles.**_\
 
 
 #### <font color= 6FBCE1> Quoting Text</font>
+
+
+\> I body him.\
+\>\> There's gonna come a point where you'll forget about what happened and you're gonna wanna come back at me.\
+\>>> Don't get hit\
+\>>>> SERIOUSLY, don't get hit.\
+\>>>>> These keep nesting at 20. I stopped checking after that point.
+
+> I body him.
+>> There's gonna come a point where you'll forget about what happened and you're gonna wanna come back at me.
+>>> Don't get hit
+>>>> SERIOUSLY, don't get hit.
+>>>>> These keep nesting at 20. I stopped checking after that point.
