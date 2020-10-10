@@ -38,12 +38,14 @@ _**It's pretty easy to ~~apply~~ multiple styles.**_\
 
 ### <font color= 6FBCE1> Quoting Text</font>
 
-
-\> I body him.\
-\>\> There's gonna come a point where you'll forget about what happened and you're gonna wanna come back at me.\
-\>>> Don't get hit\
-\>>>> SERIOUSLY, don't get hit.\
-\>>>>> These keep nesting at 20. I stopped checking after that point.
+```plaintext
+> I body him.
+>> There's gonna come a point where you'll forget about what
+happened and you're gonna wanna come back at me.
+>>> Don't get hit
+>>>> SERIOUSLY, don't get hit.
+>>>>> These keep nesting at 20. I stopped checking after that point.
+```
 
 > I body him.
 >> There's gonna come a point where you'll forget about what happened and you're gonna wanna come back at me.
@@ -53,12 +55,13 @@ _**It's pretty easy to ~~apply~~ multiple styles.**_\
 
 
 ### <font color= 6FBCE1> Code</font>
-
-\`\`\`\
-6XQS8-KLKEH-FTB\
+```plaintext
+``
+6XQS8-KLKEH-FTB
 STCBW-2V6V6-9D4
-\`\`\`\
-The lobby code is \`weloveesports\`!
+``
+The lobby code is `weloveesports`!
+```
 
 ```
 6XQS8-KLKEH-FTB
@@ -69,19 +72,23 @@ The lobby code is `weloveesports`!
 
 
 ### <font color= 6FBCE1> Lists and Bullets</font>
-\#### shopping list pt 1\
-\* allen wrenches\
-\* gerbil feeders\
-\*\*\*\
-\#### shopping list pt 2\
-\1. Walkie-talkies\
-\- copper wires safety goggles\
-\- radial tires\
-\*\*\*\
-\#### shopping list pt 3\
-\* Picture hangers\
-	\* paper cutters\
-		\* waffle irons\
+```plaintext
+#### shopping list pt 1
+* allen wrenches
+* gerbil feeders
+
+*********
+#### shopping list pt 2
+1. Walkie-talkies
+- copper wires safety goggles
+- radial tires
+
+*********
+#### shopping list pt 3
+* Picture hangers
+	* paper cutters
+		* waffle irons
+```
 
 
 #### shopping list pt 1
@@ -102,11 +109,11 @@ The lobby code is `weloveesports`!
 
 
 ### <font color= 6FBCE1> Aligning Text</font>
+```plaintext
+<div align="center">The derogatory term ... win.</div>
 
-\<div align="center">The derogatory term “scrub” means several different things. One definition is someone (especially a game player) who is not good at something (especially a game). By this definition, we all start out as scrubs, and there is certainly no shame in that. I mean the term differently, though. A scrub is a player who is handicapped by self-imposed rules that the game knows nothing about. A scrub does not play to win.</div>
-
-\<div align="right">Now, everyone begins as a poor player—it takes time to learn a game to get to a point where you know what you’re doing. There is the mistaken notion, though, that by merely continuing to play or “learn” the game, one can become a top player. In reality, the “scrub” has many more mental obstacles to overcome than anything actually going on during the game. The scrub has lost the game even before it starts. He’s lost the game even before deciding which game to play. His problem? He does not play to win.</div>
-
+<div align="right">Now, everyone begins ... win.</div>
+```
 
 <div align="center">The derogatory term “scrub” means several different things. One definition is someone (especially a game player) who is not good at something (especially a game). By this definition, we all start out as scrubs, and there is certainly no shame in that. I mean the term differently, though. A scrub is a player who is handicapped by self-imposed rules that the game knows nothing about. A scrub does not play to win.</div>
 
