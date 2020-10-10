@@ -1,7 +1,7 @@
 .highlight pre { background-color: #484C56 } /* 黑色背景 */
 .highlight .hll { background-color: #484C56 } /* 黑色背景 */
 .highlight .c { color: #FFF0D3; font-style: italic } /* Comment */ /* 淡黄色 */
-.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error *//* 红色？ */
 .highlight .g { color: #E3AAD6 } /* Generic */ /* 粉色 */
 .highlight .k { color:#93DFB8; font-weight: bold } /* Keyword */ /* 浅绿色 */
 .highlight .l { color: #E3AAD6 } /* Literal */ /* 粉色 */
@@ -10,14 +10,14 @@
 .highlight .x { color: #E3AAD6 } /* Other */ /* 粉色 */
 .highlight .p { color: #E3AAD6 } /* Punctuation */ /* 粉色 */
 .highlight .cm { color: #FFF0D3; font-style: italic } /* Comment.Multiline */ /* 淡黄色 */
-.highlight .cp { color: #cd2828; font-weight: bold } /* Comment.Preproc */
+.highlight .cp { color: #cd2828; font-weight: bold } /* Comment.Preproc *//* 红色？ */
 .highlight .c1 { color: #FFF0D3; font-style: italic } /* Comment.Single */ /* 淡黄色 */
-.highlight .cs { color: #e50808; font-weight: bold; background-color: #520000 } /* Comment.Special */
-.highlight .gd { color: #d22323 } /* Generic.Deleted */
+.highlight .cs { color: #e50808; font-weight: bold; background-color: #520000 } /* Comment.Special *//* 红色？ */
+.highlight .gd { color: #d22323 } /* Generic.Deleted *//* 红色？ */
 .highlight .ge { color: #E3AAD6; font-style: italic } /* Generic.Emph */ /* 粉色 */
-.highlight .gr { color: #d22323 } /* Generic.Error */
-.highlight .gh { color: #ffffff; font-weight: bold } /* Generic.Heading */
-.highlight .gi { color: #589819 } /* Generic.Inserted */
+.highlight .gr { color: #d22323 } /* Generic.Error *//* 红色？ */
+.highlight .gh { color: #DADDFB; font-weight: bold } /* Generic.Heading *//* 浅紫色 code */
+.highlight .gi { color: #589819 } /* Generic.Inserted *//* 绿色？ */
 .highlight .go { color: #DADDFB } /* Generic.Output *//* 浅紫色 */
 .highlight .gp { color: #DADDFB } /* Generic.Prompt *//* 浅紫色 */
 .highlight .gs { color: #E3AAD6; font-weight: bold } /* Generic.Strong */ /* 粉色 */
@@ -36,7 +36,7 @@
 .highlight .nb { color: #E3AAD6 } /* Name.Builtin *//* 紫粉色 */
 .highlight .nc { color: #DADDFB; text-decoration: underline } /* Name.Class *//* 浅紫色 */
 .highlight .no { color: #40ffff } /* Name.Constant */
-.highlight .nd { color: #DADDFB } /* Name.Decorator */ /* 浅紫色 code */
+.highlight .nd { color: #DADDFB } /* Name.Decorator */ /* 浅紫色 bushi code */
 .highlight .ni { color: #E3AAD6 } /* Name.Entity */ /* 粉色 */
 .highlight .ne { color: #93DFB8 } /* Name.Exception */ /* 浅绿色 */
 .highlight .nf { color: #DADDFB } /* Name.Function *//* 浅紫色 */
