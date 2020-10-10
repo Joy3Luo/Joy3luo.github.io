@@ -4,8 +4,8 @@ categories: [Others]
 comments: true
 ---
 
-### <font color= 977FD7> Customizing Text with Markdown</font>
-#### <font color= 6FBCE1> Headings</font>
+## <font color= 977FD7> Customizing Text with Markdown</font>
+### <font color= 6FBCE1> Headings</font>
 
 \# This is the highest level of the text.\
 \## This is the second highest level of the text.\
@@ -23,14 +23,17 @@ comments: true
 
 #### <font color= 6FBCE1> Styling Text</font>
 
-\**This text is bold.**\
-\*This text is in italics.\* \_This text is also in italics._\
-\~~This text has a strike-through applied.~~\
-\~~\**What if something is really important gets crossed out?**~~\
-\_\**It's pretty easy to \~~apply~~ multiple styles.**_
+\*\*This text is bold.\*\*\
+\*This text is in italics.\* \_This text is also in italics.\_\
+\~\~This text has a strike-through applied.\~\~\
+\~\~\*\*What if something is really important gets crossed out?\*\*\~\~\
+\_\*\*It's pretty easy to \~\~apply\~\~ multiple styles.\*\*\_
 
-**This text is bold.**
-*This text is in italics.* _This text is also in italics._
-~~This text has a strike-through applied.~~
-~~**What if something is really important gets crossed out?**~~
-_**It's pretty easy to ~~apply~~ multiple styles.**_
+**This text is bold.**\
+*This text is in italics.* _This text is also in italics._\
+~~This text has a strike-through applied.~~\
+~~**What if something is really important gets crossed out?**~~\
+_**It's pretty easy to ~~apply~~ multiple styles.**_\
+
+
+#### <font color= 6FBCE1> Quoting Text</font>
