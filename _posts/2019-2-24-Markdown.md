@@ -21,7 +21,7 @@ comments: true
 ##### There are six different headers you can use for text.
 ###### This is sixth section!
 
-#### <font color= 6FBCE1> Styling Text</font>
+### <font color= 6FBCE1> Styling Text</font>
 
 \*\*This text is bold.\*\*\
 \*This text is in italics.\* \_This text is also in italics.\_\
@@ -36,7 +36,7 @@ comments: true
 _**It's pretty easy to ~~apply~~ multiple styles.**_\
 
 
-#### <font color= 6FBCE1> Quoting Text</font>
+### <font color= 6FBCE1> Quoting Text</font>
 
 
 \> I body him.\
@@ -50,3 +50,50 @@ _**It's pretty easy to ~~apply~~ multiple styles.**_\
 >>> Don't get hit
 >>>> SERIOUSLY, don't get hit.
 >>>>> These keep nesting at 20. I stopped checking after that point.
+
+
+### <font color= 6FBCE1> Code</font>
+
+\```
+6XQS8-KLKEH-FTB\
+STCBW-2V6V6-9D4
+\```
+The lobby code is \`weloveesports`!
+
+```
+6XQS8-KLKEH-FTB
+STCBW-2V6V6-9D4
+```
+
+The lobby code is `weloveesports`!
+
+
+### <font color= 6FBCE1> Lists and Bullets</font>
+\#### shopping list pt 1
+\* allen wrenches
+\* gerbil feeders
+\***
+\#### shopping list pt 2
+\1. Walkie-talkies
+\- copper wires safety goggles
+\- radial tires
+\***
+\#### shopping list pt 3
+\* Picture hangers
+	\* paper cutters
+		\* waffle irons
+
+
+#### shopping list pt 1
+* allen wrenches
+* gerbil feeders
+***
+#### shopping list pt 2
+1. Walkie-talkies
+- copper wires safety goggles
+- radial tires
+***
+#### shopping list pt 3
+* Picture hangers
+	* paper cutters
+		* waffle irons
