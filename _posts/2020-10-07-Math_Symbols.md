@@ -1,6 +1,6 @@
 ---
 title: Math - Math Symbols
-categories: [Notes]
+categories: [Others]
 comments: true
 ---
 <style TYPE="text/css">code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}</style><script type="text/x-mathjax-config">
