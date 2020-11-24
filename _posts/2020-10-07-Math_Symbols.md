@@ -1,5 +1,5 @@
 ---
-title: Math - Math Symbols
+title: Other - Math Symbols
 categories: [Others]
 comments: true
 ---
