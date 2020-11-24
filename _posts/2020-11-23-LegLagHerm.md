@@ -2,7 +2,8 @@
 title: MatLab - Legendre Laguerre and Hermite - Gauss Quadrature
 categories: [Notes]
 comments: true
----S
+---
+
 ```matlab
 
 function [x, w] = GaussHermite_2(n)
