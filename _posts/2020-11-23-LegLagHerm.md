@@ -1,5 +1,5 @@
 ---
-title: MatLab - Runge Phenomenon
+title: MatLab - Legendre Laguerre and Hermite - Gauss Quadrature
 categories: [Notes]
 comments: true
 ---
