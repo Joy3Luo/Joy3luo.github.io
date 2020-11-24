@@ -7,7 +7,8 @@ comments: true
 %% AMSC 460 - Computational Methods Fall 2020
 
 %%
-% Student name: *Jiawei Luo*      Due Date: Tuesday, September 29
+%
+% Due Date: Tuesday, September 29
 %
 clear all; format compact; close all; syms f(x) x y e
 
