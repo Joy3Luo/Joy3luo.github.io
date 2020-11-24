@@ -5,48 +5,90 @@ comments: true
 ---
 
 ```matlab
-clear, clf
 
-% Define Runge function on [-1,1]
-x = linspace(-1,1,100);
-runge = @(x) 1./(1+12*x.^2);
-%plot(x,runge(x))
+function [x, w] = GaussHermite_2(n)
+% This function determines the abscisas (x) and weights (w) for the
+% Gauss-Hermite quadrature of order n>1, on the interval [-INF, +INF].
+    % This function is valid for any degree n>=2, as the companion matrix
+    % (of the n'th degree Hermite polynomial) is constructed as a
+    % symmetrical matrix, guaranteeing that all the eigenvalues (roots)
+    % will be real.
 
-% Obtain polynomial coefficients
-xu = linspace(-1,1,15);
-yu = runge(xu);
-p = polyfit(xu,yu,14);
+% Building the companion matrix CM
+    % CM is such that det(xI-CM)=L_n(x), with L_n the Hermite polynomial
+    % under consideration. Moreover, CM will be constructed in such a way
+    % that it is symmetrical.
+i   = 1:n-1;
+a   = sqrt(i/2);
+CM  = diag(a,1) + diag(a,-1);
+% Determining the abscissas (x) and weights (w)
+    % - since det(xI-CM)=L_n(x), the abscissas are the roots of the
+    %   characteristic polynomial, i.d. the eigenvalues of CM;
+    % - the weights can be derived from the corresponding eigenvectors.
+[V L]   = eig(CM);
+[x ind] = sort(diag(L));
+V       = V(:,ind)';
+w       = sqrt(pi) * V(:,1).^2;
 
-% Evaluate on finer grid
-ypoly = polyval(p,x);  % evaluate polynomial with coefficients p at points x
-hold on
-plot(xu,yu,'ro','MarkerSize',12)
-plot(x,ypoly)
-plot(x,runge(x),'LineWidth',2)
-%plot(xu,yu,'ro','MarkerSize',12,x,ypoly,'LineWidth',2,'r-',x,runge(x),'LineWidth',2)
-hold off
-title('Runge Phenomenon (evenly spaced nodes)','FontSize',16)
-g = legend({'f(x)', 'p(x)'})
-set(g,'FontSize',14)
+==========================================================
+function [x, w] = GaussLaguerre_2(n, alpha)
+% This function determines the abscisas (x) and weights (w) for the
+% Gauss-Laguerre quadrature of order n>1, on the interval [0, +infinity].
+    % Unlike the function 'GaussLaguerre', this function is valid for
+    % n>=34. This is due to the fact that the companion matrix (of the n'th
+    % degree Laguerre polynomial) is now constructed as a symmetrical
+    % matrix, guaranteeing that all the eigenvalues (roots) will be real.
 
-% =======================================================================
-% Evaluate on Chebyshev grid
-i = 1:15;
-xC = cos((2*i-1)*pi/(2*15));
-yC = runge(xC);
-p2 = polyfit(xC,yC,14);
+% Building the companion matrix CM
+    % CM is such that det(xI-CM)=L_n(x), with L_n the Laguerree polynomial
+    % under consideration. Moreover, CM will be constructed in such a way
+    % that it is symmetrical.
+i   = 1:n;
+a   = (2*i-1) + alpha;
+b   = sqrt( i(1:n-1) .* ((1:n-1) + alpha) );
+CM  = diag(a) + diag(b,1) + diag(b,-1);
+% Determining the abscissas (x) and weights (w)
+    % - since det(xI-CM)=L_n(x), the abscissas are the roots of the
+    %   characteristic polynomial, i.d. the eigenvalues of CM;
+    % - the weights can be derived from the corresponding eigenvectors.
+[V L]   = eig(CM);
+[x ind] = sort(diag(L));
+V       = V(:,ind)';
+w       = gamma(alpha+1) .* V(:,1).^2;
 
-% Evaluate on finer grid
-ypolyC = polyval(p2,x);  % evaluate polynomial with coefficients p at points x
-figure
-hold on
-plot(xC,yC,'ro','MarkerSize',12)
-plot(x,ypolyC)
-plot(x,runge(x),'LineWidth',2)
-hold off
-%plot(xC,yC,'bo','MarkerSize',12,x,ypolyC,'r-','LineWidth',2,x,runge(x),'LineWidth',2)
-title('No Runge Phenomenon (Chebyshev nodes)','FontSize',16)
-h = legend('f(x)', 'p(x)')
-set(h,'FontSize',14);
+==========================================================
+
+function [x, w] = GaussLegendre_2(n)
+%
+% This function determines the abscisas (x) and weights (w)  for the       
+% Gauss-Legendre quadrature, of order n>1, on the interval [-1, +1].        
+%   Unlike many publicly available functions, 'GaussLegendre_2' is valid    
+%   for n>=46. This is due to the fact that 'GaussLegendre_2' does not      
+%   rely on the build-in Matlab routine 'roots' to determine the roots of   
+%   the Legendre polynomial, but finds the roots by looking for the         
+%   eigenvalues of an alternative version of the companion matrix of the    
+%   n'th degree Legendre polynomial. The companion matrix is constructed    
+%   as a symmetrical matrix, guaranteeing that all the eigenvalues          
+%   (roots) will be real. On the contrary, the 'roots' function uses a      
+%   general form for the companion matrix, which becomes unstable at        
+%   higher orders n, leading to complex roots.                              
+%
+
+% Building the companion matrix CM
+    % CM is such that det(xI-CM)=P_n(x), with P_n the Legendre polynomial
+    % under consideration. Moreover, CM will be constructed in such a way
+    % that it is symmetrical.
+i   = 1:n-1;
+a   = i./sqrt(4*i.^2-1);
+CM  = diag(a,1) + diag(a,-1);
+% Determining the abscissas (x) and weights (w)
+    % - since det(xI-CM)=P_n(x), the abscissas are the roots of the
+    %   characteristic polynomial, i.d. the eigenvalues of CM;
+    % - the weights can be derived from the corresponding eigenvectors.
+[V L]   = eig(CM);
+[x ind] = sort(diag(L));
+V       = V(:,ind)';
+w       = 2 * V(:,1).^2;
+
 
 ```
