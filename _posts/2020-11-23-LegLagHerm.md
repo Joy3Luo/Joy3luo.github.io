@@ -32,7 +32,7 @@ MathJax.Hub.Queue(function() {
 ## <font color= 977FD7>Gauss–Hermite quadrature</font>
 Gauss-Hermite quadrature is used for integrating functions of the form $ \int\limits_{-\infty}^{\infty} f(x) e^{-x^{2}} \ dx $ over the infinite interval $ [-{\infty}, +{\infty}]$.
 
-With respect to the inner product $ <f,g> = \int\limits_{-\infty}^{\infty} f(x) g(x)w(x) \ dx $,
+With respect to the inner product $ <f,g> = \int\limits_{-\infty}^{\infty} f(x) g(x)w(x) \ dx $,  the Hermite polynomials $H_{n}(x) = (-1)^{n} e^{x^{n}} (\frac{d^{n}}{dx^{n}})( e^{-x^{2}})$ for n > 0, and $H_{0}(x) = 1$ form an orthogonal family of polynomials with weight function $w(x) = e^{-x^{2}}$ on the entire x-axis
 
 #### <font color= 6FBCE1>In MatLab</font>
 
