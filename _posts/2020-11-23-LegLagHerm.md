@@ -63,6 +63,8 @@ Determining the abscissas (x) and weights (w):
 V       = V(:,ind)';
 w       = sqrt(pi) * V(:,1).^2;
 ```
+
+```matlab
 ==========================================================
 function [x, w] = GaussLaguerre_2(n, alpha)
 % This function determines the abscisas (x) and weights (w) for the
