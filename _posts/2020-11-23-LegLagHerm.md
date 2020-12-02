@@ -96,6 +96,7 @@ CM  = diag(a) + diag(b,1) + diag(b,-1);
 Determining the abscissas (x) and weights (w):
 - since det(xI-CM)=L_n(x), the abscissas are the roots of the characteristic polynomial, i.d. the eigenvalues of CM;
 - the weights can be derived from the corresponding eigenvectors.
+
 ```matlab
 [V L]   = eig(CM);
 [x ind] = sort(diag(L));
@@ -136,6 +137,4 @@ Determining the abscissas (x) and weights (w):
 [x ind] = sort(diag(L));
 V       = V(:,ind)';
 w       = 2 * V(:,1).^2;
-
-
 ```
