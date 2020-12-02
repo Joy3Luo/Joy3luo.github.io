@@ -4,16 +4,46 @@ categories: [Notes]
 comments: true
 ---
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TG0XJZG53F"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-This function determines the abscisas (x) and weights (w) for the Gauss-Hermite quadrature of order n>1, on the interval [-INF, +INF].
+    gtag('config', 'G-TG0XJZG53F');
+  </script>
 
-This function is valid for any degree n>=2, as the companion matrix (of the n'th degree Hermite polynomial) is constructed as a symmetrical matrix, guaranteeing that all the eigenvalues (roots) will be real.
+<style TYPE="text/css">code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}</style><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }});
+</script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
+
+
+## <font color= 977FD7>Gauss–Hermite quadrature</font>
+
+
+
+#### <font color= 6FBCE1>In MatLab</font>
+
+This function determines the abscisas (x) and weights (w) for the Gauss-Hermite quadrature of order n>1, on the interval [-∞, +∞].
+
+This function is valid for any degree n≥2, as the companion matrix (of the n'th degree Hermite polynomial) is constructed as a symmetrical matrix, guaranteeing that all the eigenvalues (roots) will be real.
 
 ```matlab
 function [x, w] = GaussHermite_2(n)
 ```
 
-Building the companion matrix CM
+Building the companion matrix CM:
 
   CM is such that det(xI-CM)=L_n(x), with L_n the Hermite polynomial under consideration. Moreover, CM will be constructed in such a way that it is symmetrical.
 
@@ -21,15 +51,18 @@ Building the companion matrix CM
 i   = 1:n-1;
 a   = sqrt(i/2);
 CM  = diag(a,1) + diag(a,-1);
-% Determining the abscissas (x) and weights (w)
-    % - since det(xI-CM)=L_n(x), the abscissas are the roots of the
-    %   characteristic polynomial, i.d. the eigenvalues of CM;
-    % - the weights can be derived from the corresponding eigenvectors.
+```
+Determining the abscissas (x) and weights (w):
+  - since det(xI-CM)=L_n(x), the abscissas are the roots of the characteristic polynomial, i.d. the eigenvalues of CM;
+  - the weights can be derived from the corresponding eigenvectors.
+
+
+```matlab
 [V L]   = eig(CM);
 [x ind] = sort(diag(L));
 V       = V(:,ind)';
 w       = sqrt(pi) * V(:,1).^2;
-
+```
 ==========================================================
 function [x, w] = GaussLaguerre_2(n, alpha)
 % This function determines the abscisas (x) and weights (w) for the
