@@ -45,7 +45,7 @@ function [x, w] = GaussHermite_2(n)
 
 Building the companion matrix CM:
 
-  CM is such that det(xI-CM)=L_n(x), with L_n the Hermite polynomial under consideration. Moreover, CM will be constructed in such a way that it is symmetrical.
+  CM is such that det(xI-CM)=L<sub>n</sub>(x), with L_n the Hermite polynomial under consideration. Moreover, CM will be constructed in such a way that it is symmetrical.
 
 ```matlab
 i   = 1:n-1;
@@ -53,7 +53,7 @@ a   = sqrt(i/2);
 CM  = diag(a,1) + diag(a,-1);
 ```
 Determining the abscissas (x) and weights (w):
-  - since det(xI-CM)=L_n(x), the abscissas are the roots of the characteristic polynomial, i.d. the eigenvalues of CM;
+  - since det(xI-CM)=L<sub>n</sub>(x), the abscissas are the roots of the characteristic polynomial, i.d. the eigenvalues of CM;
   - the weights can be derived from the corresponding eigenvectors.
 
 
