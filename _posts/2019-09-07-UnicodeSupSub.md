@@ -1,5 +1,5 @@
 ---
-title: Other - Unicode Superscript and Subscript Characters
+title: Unicode - Superscript and Subscript Characters
 categories: [Others]
 comments: true
 ---
@@ -17,7 +17,7 @@ MathJax.Hub.Queue(function() {
     }});
 </script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
-# Unicode Superscript and Subscript Characters
+# Superscript and Subscript Characters
 
 
 ## `Latin-1 Supplement` Unicode Block
