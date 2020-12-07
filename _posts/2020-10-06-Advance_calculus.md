@@ -1,5 +1,5 @@
 ---
-title: Math - Advance Calculus (Still working on it..)
+title: Advance Calculus (Still working on it..)
 categories: [Notes]
 comments: true
 ---
