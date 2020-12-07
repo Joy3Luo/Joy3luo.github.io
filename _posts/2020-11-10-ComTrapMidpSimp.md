@@ -86,17 +86,13 @@ This gives rise to the Simple Trapezoidal Rule
 
 $ I_{1}(f)=\int_{a}^{b} \frac{(b-x) f(a)+(x-a) f(b)}{b-a} d x=\left(\frac{b-a}{2}\right)[f(a)+f(b)] $
 
-
-
 (Simple Trapezoidal)
-
-
 
 which is simply the area of trapezoid.
 
 
+#### <font color= 6FBCE1> Error Analysis </font>
 
-Error Analysis
 
 To analyse the error, assume $ f \in C^{2}[a, b] . $ For a linear interpolant, the interpolation error formula (IEF) gives
 
@@ -107,32 +103,13 @@ $ \begin{aligned} = f(x)-p_{1}(x) & =(x-a)(x-b) \frac{f^{\prime \prime}(\xi)}{2}
 
 
 
-where $ f[a, b, x] $ is the second order divided difference. since
-
-$ g(x)=(x-a)(x-b) \leqslant 0 $
-
-
-on $ [a, b],$
-
-
-
-it follows from the Mean Value Theorem for Integrals that there exists an
-
-
-
-$ \xi \in[a, b] $ such that
-
-
+where $ f[a, b, x] $ is the second order divided difference. since $ g(x)=(x-a)(x-b) \leqslant 0 $ on $ [a, b],$ it follows from the Mean Value Theorem for Integrals that there exists an $ \xi \in[a, b] $ such that
 
 $ E_{1}(f)=\int_{a}^{b} f(x)-p_{1}(x) d x=\int_{a}^{b}(x-a)(x-b) f[a, b, x] d x $
 
-
-
 $ =f[a, b, \xi] \int_{a}^{b}(x-a)(x-b) d x $
 
-$ =\left[\frac{f^{\prime \prime}(\eta)}{2}\right]\left[-\frac{1}{6}(b-a)^{3}\right], $ for
-
-
+$ =\left[\frac{f^{\prime \prime}(\eta)}{2}\right]\left[-\frac{1}{6}(b-a)^{3}\right], $ for some $ \eta \in[a, b] $
 
 Writing $ b-a $ as $ h, $ we have
 
