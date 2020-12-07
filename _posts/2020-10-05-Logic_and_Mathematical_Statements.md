@@ -1,5 +1,5 @@
 ---
-title: Math - Logic and Mathematical Statements
+title: Logic and Mathematical Statements
 categories: [Notes]
 comments: true
 ---
