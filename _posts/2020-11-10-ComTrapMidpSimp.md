@@ -115,15 +115,7 @@ $ E_{1}(f)=-\left[\frac{f^{\prime \prime}(\eta)}{12}\right] h^{3} \quad $ for so
 
 
 
-
-
-
-
-
-
-
-
-
+#### <font color= 6FBCE1> In MatLab </font>
 
 ```matlab
 
