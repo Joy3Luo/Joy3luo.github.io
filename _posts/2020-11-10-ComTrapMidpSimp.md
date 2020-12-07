@@ -54,9 +54,19 @@ $ I_{n}(f):=I\left(f_{n}\right)=\int_{a}^{b} f_{n}(x) d x $
 and the error function
 $ E_{n}(f):=I(f)-I_{n}(f)=\int_{a}^{b}\left[f(x)-f_{n}(x)\right] d x $
 
-In a relatively simple case, one usually requires that $ \left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty, $ since
+In a relatively simple case, one usually requires that $ \left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty, $
 
-$ \left|E_{n}(f)\right| \leqslant \int_{a}^{b}\left|f(x)-f_{n}(x)\right| d x \leqslant(b-a)\left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty $
+since
+
+$ \left|E_{n}(f)\right| \leqslant \int_{a}^{b}\left|f(x)-f_{n}(x)\right| d x$
+
+
+
+$ \leqslant(b-a)\left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $
+
+
+
+as $ n \longrightarrow \infty $
 
 
 
