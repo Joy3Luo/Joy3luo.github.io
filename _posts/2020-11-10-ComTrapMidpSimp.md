@@ -62,19 +62,18 @@ $ \left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \in
 
 since
 
-$ \left|E_{n}(f)\right| $
+$ |E_{n}(f)| $
 
 
 
-$\leqslant \int_{a}^{b}\left|f(x)-f_{n}(x)\right| d x$
+$\leqslant \int_{a}^{b}c|f(x)-f_{n}(x)| d x$
 
 
 
 $ \leqslant(b-a)\left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty $
 
 
-
-Simple Trapezoidal Rule
+#### <font color= 6FBCE1> Simple Trapezoidal Rule </font>
 
 
 We approximate the integrand $ f(x) $ using linear interpolation $ p_{1}(x), $ this simply refers to the straight line joining the points $ (a, f(a)) $ and $ (b, f(b)) . $ Referring to the Lagrange's formula, we have the following approximation
