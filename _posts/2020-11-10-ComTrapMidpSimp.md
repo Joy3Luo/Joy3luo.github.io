@@ -58,15 +58,15 @@ $ E_{n}(f):=I(f)-I_{n}(f)=\int_{a}^{b}\left[f(x)-f_{n}(x)\right] d x $
 
 In a relatively simple case, one usually requires that
 
-$ \left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty, $
+$ \left\|\|f-f_{n}\right\|\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty, $
 
 since
 
-$\left|E_{n}(f)\right|$
+$\left\|E_{n}(f)\right\|$
 
 
 
-$\leqslant \int_{a}^{b}s|f(x)-f_{n}(x)| d x$
+$\leqslant \int_{a}^{b}\left\|f(x)-f_{n}(x)\right\| d x$
 
 
 
