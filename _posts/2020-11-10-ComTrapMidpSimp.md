@@ -84,7 +84,8 @@ To analyse the error, assume $ f \in C^{2}[a, b] . $ For a linear interpolant, t
 
 
 
-$ \begin{aligned} f(x)-\frac{(b-x) f(a)+(x-a) f(b)}{b-a}=f(x)-p_{1}(x) & =(x-a)(x-b) \frac{f^{\prime \prime}(\xi)}{2} \\ &=(x-a)(x-b) f[a, b, x] \end{aligned} $
+$ \begin{aligned} f(x)-\frac{(b-x) f(a)+(x-a) f(b)}{b-a} \end{aligned}$
+$ \begin{aligned} = f(x)-p_{1}(x) & =(x-a)(x-b) \frac{f^{\prime \prime}(\xi)}{2} \\ &=(x-a)(x-b) f[a, b, x] \end{aligned} $
 
 
 
