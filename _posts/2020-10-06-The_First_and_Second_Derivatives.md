@@ -1,5 +1,5 @@
 ---
-title: Math - The First and Second Derivatives
+title: The First and Second Derivatives
 categories: [Notes]
 comments: true
 ---
