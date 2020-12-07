@@ -62,7 +62,7 @@ $ \left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \in
 
 since
 
-$|E_{n}(f)|$
+$\left|E_{n}(f)\right|$
 
 
 
