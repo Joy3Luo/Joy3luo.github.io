@@ -1,5 +1,5 @@
 ---
-title: Math - Niven's Theorem
+title: Niven's Theorem
 categories: [Notes]
 comments: true
 ---
