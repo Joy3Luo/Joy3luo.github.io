@@ -1,5 +1,5 @@
 ---
-title: Legendre Laguerre and Hermite - Gauss Quadrature In MatLab
+title: Legendre Laguerre and Hermite - Gauss Quadrature
 categories: [Notes]
 comments: true
 ---
