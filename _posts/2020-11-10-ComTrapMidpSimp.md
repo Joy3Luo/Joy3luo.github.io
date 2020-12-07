@@ -1,5 +1,5 @@
 ---
-title: MatLab - Composite trapezoid rule/Composite midpoint rule/Composite Simpson’s Rule
+title: Composite trapezoid rule/Composite midpoint rule/Composite Simpson’s Rule In MatLab
 categories: [Notes]
 comments: true
 ---
