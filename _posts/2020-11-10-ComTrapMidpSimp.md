@@ -90,9 +90,10 @@ $ \begin{aligned} f(x)-\frac{(b-x) f(a)+(x-a) f(b)}{b-a}=f(x)-p_{1}(x) & =(x-a)(
 
 where $ f[a, b, x] $ is the second order divided difference. since
 
+$ g(x)=(x-a)(x-b) \leqslant 0 $ on $ [a, b],
 
 
-$ g(x)=(x-a)(x-b) \leqslant 0 $ on $ [a, b], $ it follows from the Mean Value Theorem for Integrals that there exists an $ \xi \in[a, b] $ such that
+$ it follows from the Mean Value Theorem for Integrals that there exists an $ \xi \in[a, b] $ such that
 
 
 
