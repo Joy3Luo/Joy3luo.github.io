@@ -84,11 +84,15 @@ To analyse the error, assume $ f \in C^{2}[a, b] . $ For a linear interpolant, t
 
 
 
-$ \begin{aligned} f(x)-\frac{(b-x) f(a)+(x-a) f(b)}{b-a}=f(x)-p_{1}(x) &=(x-a)(x-b) \frac{f^{\prime \prime}(\xi)}{2} \\ &=(x-a)(x-b) f[a, b, x] \end{aligned} $
+$ \begin{aligned} f(x)-\frac{(b-x) f(a)+(x-a) f(b)}{b-a}=f(x)-p_{1}(x) & =(x-a)(x-b) \frac{f^{\prime \prime}(\xi)}{2} \\ &=(x-a)(x-b) f[a, b, x] \end{aligned} $
 
 
 
-where $ f[a, b, x] $ is the second order divided difference. since $ g(x)=(x-a)(x-b) \leqslant 0 $ on $ [a, b], $ it follows from the Mean Value Theorem for Integrals that there exists an $ \xi \in[a, b] $ such that
+where $ f[a, b, x] $ is the second order divided difference. since
+
+
+
+$ g(x)=(x-a)(x-b) \leqslant 0 $ on $ [a, b], $ it follows from the Mean Value Theorem for Integrals that there exists an $ \xi \in[a, b] $ such that
 
 
 
@@ -107,22 +111,6 @@ Writing $ b-a $ as $ h, $ we have
 
 
 $ E_{1}(f)=-\left[\frac{f^{\prime \prime}(\eta)}{12}\right] h^{3} \quad $ for some $ \eta \in[a, b] $
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
