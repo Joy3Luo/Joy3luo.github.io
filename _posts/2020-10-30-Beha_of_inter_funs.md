@@ -1,5 +1,5 @@
 ---
-title: MatLab - Behavior of interpolating functions
+title: Behavior of interpolating functions In MatLab
 categories: [Notes]
 comments: true
 ---
