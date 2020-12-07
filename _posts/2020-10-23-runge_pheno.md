@@ -1,5 +1,5 @@
 ---
-title: MatLab - Runge Phenomenon
+title: Runge Phenomenon In MatLab
 categories: [Notes]
 comments: true
 ---
