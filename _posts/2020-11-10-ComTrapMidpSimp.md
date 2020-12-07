@@ -66,7 +66,7 @@ $\left\|E_{n}(f)\right\|\leqslant \int_{a}^{b}\left\|f(x)-f_{n}(x)\right\| d x$
 
 
 
-$ \leqslant(b-a)\left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty $
+$ \leqslant(b-a)\left\|\|f-f_{n}\right\|\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty $
 
 
 #### <font color= 6FBCE1> Simple Trapezoidal Rule </font>
