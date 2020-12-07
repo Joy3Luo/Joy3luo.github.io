@@ -46,10 +46,12 @@ with $ [a, b] $ some finite interval. The approximation of $ I(f) $ is commonly 
 <font color= E675A7> The simplest method for approximating $ I(f)=\int_{a}^{b} f(x) d x $ is as follows.</font>
 
 
-Given an integrand $ f(x) $ on $ [a, b], $ construct a family of approximating function $ \left(f_{n}\right), n \geqslant 1, $ where $ n $ refers to the number of subintervals on $ [a, b] . $ Define
+Given an integrand $ f(x) $ on $ [a, b], $ construct a family of approximating function $ \left(f_{n}\right), n \geqslant 1, $ where $ n $ refers to the number of subintervals on $ [a, b] . $
 
+Define
 $ I_{n}(f):=I\left(f_{n}\right)=\int_{a}^{b} f_{n}(x) d x $
 
+and the error function
 $ E_{n}(f):=I(f)-I_{n}(f)=\int_{a}^{b}\left[f(x)-f_{n}(x)\right] d x $
 
 In a relatively simple case, one usually requires that $ \left\|f-f_{n}\right\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow \infty, $ since
