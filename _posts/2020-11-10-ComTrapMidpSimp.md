@@ -66,7 +66,7 @@ $ |E_{n}(f)| $
 
 
 
-$\leqslant \int_{a}^{b}c|f(x)-f_{n}(x)| d x$
+$\leqslant \int_{a}^{b}s|f(x)-f_{n}(x)| d x$
 
 
 
