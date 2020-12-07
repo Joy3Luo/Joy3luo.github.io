@@ -1,5 +1,5 @@
 ---
-title: Legendre Laguerre and Hermite - Gauss Quadrature
+title: Gaussian Quadrature
 categories: [Notes]
 comments: true
 ---
