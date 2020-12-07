@@ -62,11 +62,7 @@ $ \left\|\|f-f_{n}\right\|\|_{\infty} \longrightarrow 0 $ as $ n \longrightarrow
 
 since
 
-$\left\|E_{n}(f)\right\|$
-
-
-
-$\leqslant \int_{a}^{b}\left\|f(x)-f_{n}(x)\right\| d x$
+$\left\|E_{n}(f)\right\|\leqslant \int_{a}^{b}\left\|f(x)-f_{n}(x)\right\| d x$
 
 
 
