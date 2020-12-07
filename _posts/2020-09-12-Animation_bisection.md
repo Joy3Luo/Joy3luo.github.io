@@ -1,5 +1,5 @@
 ---
-title: MatLab - Animation of bisection method
+title: Animation of bisection method In MatLab
 categories: [Notes]
 comments: true
 ---
@@ -84,7 +84,7 @@ err = abs(pi/2 - c);
 % BISECTION METHOD
 % =================================================
 % Computes approximate solution of f(x)=0
-% Input: anonymous function f; a,b such that f(a)*f(b)<0, 
+% Input: anonymous function f; a,b such that f(a)*f(b)<0,
 %        and tolerance tol
 % Output: Approximate solution xc
 % =================================================
