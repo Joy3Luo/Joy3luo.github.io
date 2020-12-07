@@ -28,8 +28,9 @@ MathJax.Hub.Queue(function() {
 </script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_HTML-full"></script>
 
 
+## <font color= 977FD7> Numerical Integration</font>
 
-Various numerical methods for approximating definite integrals of the form
+We will derive and analyse various numerical methods for approximating definite integrals of the form
 
 $ I(f)=\int_{a}^{b} f(x) d x $
 
@@ -41,7 +42,9 @@ with $ [a, b] $ some finite interval. The approximation of $ I(f) $ is commonly 
 
 3. Even if an explicit antiderivative formula exists, it might not be the most efficient way of computing the definite integral. This is the case when the antiderivative is given as an infinite sum or product.
 
-The simplest method for approximating $ I(f)=\int_{a}^{b} f(x) d x $ is as follows.
+
+<font color= E675A7> The simplest method for approximating $ I(f)=\int_{a}^{b} f(x) d x $ is as follows.</font>
+
 
 Given an integrand $ f(x) $ on $ [a, b], $ construct a family of approximating function $ \left(f_{n}\right), n \geqslant 1, $ where $ n $ refers to the number of subintervals on $ [a, b] . $ Define
 
