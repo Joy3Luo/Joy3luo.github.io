@@ -1,0 +1,70 @@
+.highlight pre { background-color: #484C56 } /* 黑色背景 */
+.highlight .hll { background-color: #484C56 } /* 黑色背景 */
+.highlight .c { color: #FFF0D3; font-style: italic } /* Comment */ /* 淡黄色 */
+.highlight .err { color: #a61717; background-color: #e3d2d2 } /* Error *//* 红色？ */
+.highlight .g { color: #E3AAD6 } /* Generic */ /* 粉色 */
+.highlight .k { color:#93DFB8; font-weight: bold } /* Keyword */ /* 浅绿色 */
+.highlight .l { color: #E3AAD6 } /* Literal */ /* 粉色 */
+.highlight .n { color: #E3AAD6 } /* Name */ /* 粉色 */
+.highlight .o { color: #E3AAD6 } /* Operator */ /* 粉色 */
+.highlight .x { color: #E3AAD6 } /* Other */ /* 粉色 */
+.highlight .p { color: #E3AAD6 } /* Punctuation */ /* 粉色 */
+.highlight .cm { color: #FFF0D3; font-style: italic } /* Comment.Multiline */ /* 淡黄色 */
+.highlight .cp { color: #cd2828; font-weight: bold } /* Comment.Preproc *//* 红色？ */
+.highlight .c1 { color: #FFF0D3; font-style: italic } /* Comment.Single */ /* 淡黄色 */
+.highlight .cs { color: #e50808; font-weight: bold; background-color: #520000 } /* Comment.Special *//* 红色？ */
+.highlight .gd { color: #d22323 } /* Generic.Deleted *//* 红色？ */
+.highlight .ge { color: #E3AAD6; font-style: italic } /* Generic.Emph */ /* 粉色 */
+.highlight .gr { color: #d22323 } /* Generic.Error *//* 红色？ */
+.highlight .gh { color: #DADDFB; font-weight: bold } /* Generic.Heading *//* 浅紫色 code 不是 */
+.highlight .gi { color: #589819 } /* Generic.Inserted *//* 绿色？ */
+.highlight .go { color: #DADDFB } /* Generic.Output *//* 浅紫色 */
+.highlight .gp { color: #DADDFB } /* Generic.Prompt *//* 浅紫色 */
+.highlight .gs { color: #E3AAD6; font-weight: bold } /* Generic.Strong */ /* 粉色 */
+.highlight .gu { color: #ffffff; text-decoration: underline } /* Generic.Subheading */
+.highlight .gt { color: #d22323 } /* Generic.Traceback *//* 红色？ */
+.highlight .kc { color:#93DFB8; font-weight: bold } /* Keyword.Constant */ /* 浅绿色 */
+.highlight .kd { color:#93DFB8; font-weight: bold } /* Keyword.Declaration */ /* 浅绿色 */
+.highlight .kn { color:#93DFB8; font-weight: bold } /* Keyword.Namespace */ /* 浅绿色 */
+.highlight .kp { color:#93DFB8 } /* Keyword.Pseudo */ /* 浅绿色 */
+.highlight .kr { color:#93DFB8; font-weight: bold } /* Keyword.Reserved */ /* 浅绿色 */
+.highlight .kt { color:#93DFB8; font-weight: bold } /* Keyword.Type */ /* 浅绿色 */
+.highlight .ld { color: #E3AAD6 } /* Literal.Date */ /* 粉色 */
+.highlight .m { color: #ABE4FF } /* Literal.Number *//* 浅蓝色 */
+.highlight .s { color: #FFABAB } /* Literal.String *//* 浅粉色 */
+.highlight .na { color: #93DFB8 } /* Name.Attribute */ /* 浅绿色 */
+.highlight .nb { color: #E3AAD6 } /* Name.Builtin *//* 紫粉色 */
+.highlight .nc { color: #DADDFB; text-decoration: underline } /* Name.Class *//* 浅紫色 */
+.highlight .no { color: #40ffff } /* Name.Constant *//* 淡蓝色？ */
+.highlight .nd { color: #DADDFB } /* Name.Decorator */ /* 浅紫色 不是 code */
+.highlight .ni { color: #E3AAD6 } /* Name.Entity */ /* 粉色 */
+.highlight .ne { color: #93DFB8 } /* Name.Exception */ /* 浅绿色 */
+.highlight .nf { color: #DADDFB } /* Name.Function *//* 浅紫色 */
+.highlight .nl { color: #E3AAD6 } /* Name.Label */ /* 粉色 */
+.highlight .nn { color: #DADDFB; text-decoration: underline } /* Name.Namespace *//* 浅紫色 */
+.highlight .nx { color: #E3AAD6 } /* Name.Other */ /* 粉色 */
+.highlight .py { color: #E3AAD6 } /* Name.Property */ /* 粉色 */
+.highlight .nt { color:#93DFB8; font-weight: bold } /* Name.Tag */ /* 浅绿色 */
+.highlight .nv { color: #40ffff } /* Name.Variable *//* 红色？ */
+.highlight .ow { color:#93DFB8; font-weight: bold } /* Operator.Word */ /* 浅绿色 */
+.highlight .w { color: #666666 } /* Text.Whitespace */ /* 深灰？ */
+.highlight .mf { color: #ABE4FF } /* Literal.Number.Float *//* 浅蓝色 */
+.highlight .mh { color: #ABE4FF } /* Literal.Number.Hex *//* 浅蓝色 */
+.highlight .mi { color: #ABE4FF } /* Literal.Number.Integer *//* 浅蓝色 */
+.highlight .mo { color: #ABE4FF } /* Literal.Number.Oct *//* 浅蓝色 */
+.highlight .sb { color: #FFABAB } /* Literal.String.Backtick *//* 浅粉色 */
+.highlight .sc { color: #FFABAB } /* Literal.String.Char *//* 浅粉色 */
+.highlight .sd { color: #FFABAB } /* Literal.String.Doc *//* 浅粉色 */
+.highlight .s2 { color: #FFABAB } /* Literal.String.Double *//* 浅粉色 */
+.highlight .se { color: #FFABAB } /* Literal.String.Escape *//* 浅粉色 */
+.highlight .sh { color: #FFABAB } /* Literal.String.Heredoc *//* 浅粉色 */
+.highlight .si { color: #FFABAB } /* Literal.String.Interpol *//* 浅粉色 */
+.highlight .sx { color: #DADDFB } /* Literal.String.Other *//* 浅紫色 */
+.highlight .sr { color: #FFABAB } /* Literal.String.Regex *//* 浅粉色 */
+.highlight .s1 { color: #FFABAB } /* Literal.String.Single *//* 浅粉色 */
+.highlight .ss { color: #FFABAB } /* Literal.String.Symbol *//* 浅粉色 */
+.highlight .bp { color: #E3AAD6 } /* Name.Builtin.Pseudo *//* 紫粉色 */
+.highlight .vc { color: #40ffff } /* Name.Variable.Class *//* 淡蓝色？ */
+.highlight .vg { color: #40ffff } /* Name.Variable.Global *//* 淡蓝色？ */
+.highlight .vi { color: #40ffff } /* Name.Variable.Instance *//* 淡蓝色？ */
+.highlight .il { color: #ABE4FF } /* Literal.Number.Integer.Long *//* 浅蓝色 */
