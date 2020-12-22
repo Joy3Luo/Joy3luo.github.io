@@ -12,8 +12,7 @@ url: https://joy3luo.github.io/ # the base hostname & protocol for your site
 permalink: /:year-:month/:title
 timezone:
 
-favicon: /assets/img/favicon
-
+favicon: /assets/img/favicon.ico
 
 google_analytics: #G-TG0XJZG53F
 disqus_shortname: #disqus shortname
